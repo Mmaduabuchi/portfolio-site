@@ -96,6 +96,10 @@
 
             <ul>
               <li id="li-project-text">Catholic Church Choir Website:</li>
+              <a href="https//www.ihmc.000webhostapp.com">
+                <button id="ihmc-button">View Site</button>
+                <span id="text-site-span"></span>
+              </a>
             </ul>
             <div class="row">
               <div class="col-12 col-lg-3 image-holder-div">
