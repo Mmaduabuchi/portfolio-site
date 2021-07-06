@@ -67,10 +67,28 @@ a:hover{
 }
 .side-div{
   border-left: 4px solid orange;
-  color: white;
   font-weight: bold;
-  text-align: center;
 }
 .name-text{
   font-family: monospace;
+  text-align: center;
+  color: white;
+}
+.skills-text{
+  font-family: jokerman;
+  color: orange;
+}
+.about-text-des{
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1;
+}
+li{
+  color: white;
+  font-weight: bold;
+}
+.border-about-holder{
+  border: none;
+  border-top: 4px solid orange;
+  border-bottom: 4px solid orange;
 }
