@@ -1,0 +1,67 @@
+body{
+  background: linear-gradient(88deg, black, #0000009e, #000c, #000), url('image/imageme2.jpg');
+  background-size: cover;
+}
+#hi{
+  font-family: cursive;
+  font-size: 1.5rem;
+}
+#p-text{
+  font-size: 1.3rem;
+  color: white;
+}
+.myimage{
+  width: 100%;
+  clip-path: circle(30%);
+}
+.myname{
+  font-family: jokerman;
+  color: orange;
+}
+#more-text{
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+}
+.btn{
+  border: 4px solid orange;
+  border-radius: 2rem;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin-right: 5%;
+}
+.text-holder{
+  margin-top: 20%;
+  margin-left: 3%;
+}
+.animation{
+  color: white;
+  font-family: cursive;
+}
+.animation:before{
+    content: "";
+    animation: animate infinite 8s;
+}
+@keyframes animate {
+    0%{
+        content: "Freelancer";
+    }
+    20%{
+        content: "Designer";
+    }
+    40%{
+        content: "Programmer";
+    }
+    60%{
+        content: "Developer";
+    }
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
