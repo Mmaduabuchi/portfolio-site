@@ -65,3 +65,12 @@ a{
 a:hover{
   color: white;
 }
+.side-div{
+  border-left: 4px solid orange;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.name-text{
+  font-family: monospace;
+}
