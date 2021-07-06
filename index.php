@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="media.css">
     <script src="functionality.js" defer></script>
   </head>
-  <body class="container-fluid">
+  <body class="container-fluid body">
 
     <div class="row mt-3">
       <div class="col-6">

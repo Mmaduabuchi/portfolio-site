@@ -11,20 +11,181 @@
     <link rel="stylesheet" href="media.css">
     <script src="functionality.js" defer></script>
   </head>
-  <body class="container-fluid">
+  <body class="container-fluid bg-light">
+    <div class="body" id='body-project'>
+      <div class="row pb-5">
+            <div class="col mb-5 text-holder">
+              <a href="index.php">
+                <button type="button" class="btn" name="button">Home</button>
+              </a>
+              <a href="about.html">
+                <button type="button" class="btn" name="button">About me</button>
+              </a>
+              <a href="contact.html">
+                <button type="button" class="btn" name="button">Contact me</button>
+              </a>
+           </div>
+        </div>
+      </div>
+        <div class="col">
+          <h2 class="my-text-project">My Projects</h2>
+          <div class="border-text-holder pt-5">
+            <ul>
+              <li id="li-project-text">Ecommerce WebSite:</li>
+            </ul>
+            <div class="row">
+              <div class="col-12 col-lg-3 image-holder-div">
+                <div class="row">
+                  <img src="projectimage/still1.png" class="Projects-img">
+                </div>
+                <div class="row text-project-row">
+                  <p class="p-project-text">hello hello hello hello</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 image-holder-div">
+                <div class="row">
+                  <img src="projectimage/still2.png" class="Projects-img">
+                </div>
+                <div class="row text-project-row">
+                  <p class="p-project-text">hello hello hello hello</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 image-holder-div">
+                <div class="row">
+                  <img src="projectimage/still3.png" class="Projects-img">
+                </div>
+                <div class="row  text-project-row">
+                  <p class="p-project-text">hello hello hello hello</p>
+                </div>
+              </div>
+            </div>
 
-    <div class="row mt-3">
-      <div class="col-6">
-          <div class="text-holder">
-            <a href="index.php">
-              <button type="button" class="btn" name="button">Home</button>
-            </a>
-            <a href="about.html">
-              <button type="button" class="btn" name="button">About me</button>
-            </a>
-            <a href="contact.html">
-              <button type="button" class="btn" name="button">Contact me</button>
-            </a>
+
+
+            <ul>
+              <li id="li-project-text">Desktop Application:</li>
+            </ul>
+            <div class="row">
+              <div class="col-12 col-lg-3 image-holder-div">
+                <div class="row">
+                  <img src="projectimage/attend1.png" class="Projects-img">
+                </div>
+                <div class="row  text-project-row">
+                  <p class="p-project-text">hello hello hello hello</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 image-holder-div">
+                <div class="row">
+                  <img src="projectimage/attend2.png" class="Projects-img">
+                </div>
+                <div class="row  text-project-row">
+                  <p class="p-project-text">hello hello hello hello</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 image-holder-div">
+                <div class="row">
+                  <img src="projectimage/attend1.png" class="Projects-img">
+                </div>
+                <div class="row  text-project-row">
+                  <p class="p-project-text">hello hello hello hello</p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <ul>
+              <li id="li-project-text">Catholic Church Choir Website:</li>
+            </ul>
+            <div class="row">
+              <div class="col-12 col-lg-3 image-holder-div">
+                <div class="row">
+                  <img src="projectimage/ihmc1.png" class="Projects-img">
+                </div>
+                <div class="row  text-project-row">
+                  <p class="p-project-text">hello hello hello hello</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 image-holder-div">
+                <div class="row">
+                  <img src="projectimage/ihmc2.png" class="Projects-img">
+                </div>
+                <div class="row  text-project-row">
+                  <p class="p-project-text">hello hello hello hello</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 image-holder-div">
+                <div class="row">
+                  <img src="projectimage/ihmc3.png" class="Projects-img">
+                </div>
+                <div class="row text-project-row">
+                  <p class="p-project-text">hello hello hello hello</p>
+                </div>
+              </div>
+            </div>
+
+
+                        <ul>
+                          <li id="li-project-text">Doctors Portal Website:</li>
+                        </ul>
+                        <div class="row">
+                          <div class="col-12 col-lg-3 image-holder-div">
+                            <div class="row">
+                              <img src="projectimage/doc1.png" class="Projects-img">
+                            </div>
+                            <div class="row  text-project-row">
+                              <p class="p-project-text">hello hello hello hello</p>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-3 image-holder-div">
+                            <div class="row">
+                              <img src="projectimage/doc2.png" class="Projects-img">
+                            </div>
+                            <div class="row  text-project-row">
+                              <p class="p-project-text">hello hello hello hello</p>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-3 image-holder-div">
+                            <div class="row">
+                              <img src="projectimage/doc1.png" class="Projects-img">
+                            </div>
+                            <div class="row text-project-row">
+                              <p class="p-project-text">hello hello hello hello</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <ul>
+                          <li id="li-project-text">Image Compressor:</li>
+                        </ul>
+                        <div class="row">
+                          <div class="col-12 col-lg-3 image-holder-div">
+                            <div class="row">
+                              <img src="projectimage/compress.png" class="Projects-img">
+                            </div>
+                            <div class="row  text-project-row">
+                              <p class="p-project-text">hello hello hello hello</p>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-3 image-holder-div">
+                            <div class="row">
+                              <img src="projectimage/compress.png" class="Projects-img">
+                            </div>
+                            <div class="row  text-project-row">
+                              <p class="p-project-text">hello hello hello hello</p>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-3 image-holder-div">
+                            <div class="row">
+                              <img src="projectimage/compress.png" class="Projects-img">
+                            </div>
+                            <div class="row text-project-row">
+                              <p class="p-project-text">hello hello hello hello</p>
+                            </div>
+                          </div>
+                        </div>
+
+              <br><br><br>
           </div>
         </div>
     </div>
