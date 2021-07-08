@@ -25,12 +25,53 @@
   }
   #ihmc-button{
     border: 3px solid black;
-    border-radius: 0rem;
     padding: 0.5rem;
-    text-align: center;
     font-size: 0.8rem;
     font-weight: bold;
-    background: rgba(0, 0, 0, 0.5);
     color: white;
+  }
+ #body-project{
+    margin: -1.1%;
+    margin-bottom: 2%;
+    padding: 0%;
+  }
+  #li-project-text{
+    font-size: 1rem;
+    font-family: monospace;
+    color: orange;
+  }
+  #body-project{
+    margin: -6%;
+    margin-bottom: 2%;
+    padding: 0%;
+  }
+  .image-holder-div{
+    box-shadow: 2px 2px 10px grey;
+    margin-bottom: 5%;
+  }
+  #myaboutImage{
+    width: 50%;
+  }
+  .side-div{
+    border: none;
+    font-weight: bold;
+  }
+  .skills-text{
+    font-family: jokerman;
+    color: orange;
+    font-size: 1.6rem;
+  }
+  .text-holder{
+    margin-top: 20%;
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+  .name-text{
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid orange;
+    width: 50%;
+    margin-left: 23%;
   }
 }
